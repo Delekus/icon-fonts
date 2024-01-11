@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Подключение иконочных шрифтов-->
+	<link rel="stylesheet" href="style.css">
+	<title>Icon-Fonts</title>
+	<style>
+		*,
+		*:before,
+		*:after {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		html,
+		body {
+			font-size: 16px;
+			width: 100%;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			margin: 50px 0;
+		}
+
+		@media (max-width: 440px) {
+			h1 {
+				font-size: 24px;
+			}
+		}
+
+		.block__icon {
+			max-width: 1100px;
+			margin: 50px auto;
+			text-align: center;
+		}
+
+		.icon__list {
+			list-style: none;
+			padding: 0;
+		}
+
+		.icon__item {
+			display: inline-block;
+		}
+
+		.icon__item:hover .icon {
+			color: #7099f8;
+		}
+
+		.icon__link {
+			text-decoration: none;
+			font-size: 16px;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+		.icon__text {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			background-color: #ffa500;
+			border-radius: 0 5px 5px 0;
+			width: 180px;
+			height: 70px;
+			text-align-last: left;
+			padding: 12px 5px;
+			margin-bottom: 10px;
+		}
+
+
+		.icon__name {
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+
+		.icon__subtitle {}
+
+		.icon {
+			background-color: #444444;
+			font-size: 30px;
+			padding: 20px;
+			border-radius: 5px 0 0 5px;
+			float: left;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Кнопки с использованием иконических шрифтов</h1>
+
+	<div class="block__icon">
+		<ul class="icon__list">
+			<!--Facebook-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-facebook"></i>
+					<div class="icon__text">
+						<p class="icon__name">Facebook</p>
+						<p class="icon__subtitle">Посетить Facebook</p>
+					</div>
+				</a>
+			</li>
+			<!--Twitter-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-twitter"></i>
+					<div class="icon__text">
+						<p class="icon__name">Twitter</p>
+						<p class="icon__subtitle">Посетить Twitter</p>
+					</div>
+				</a>
+			</li>
+			<!--Google-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-google"></i>
+					<div class="icon__text">
+						<p class="icon__name">Google</p>
+						<p class="icon__subtitle">Посетить Google</p>
+					</div>
+				</a>
+			</li>
+			<!--Pinterset-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-pinterest"></i>
+					<div class="icon__text">
+						<p class="icon__name">Pinterest</p>
+						<p class="icon__subtitle">Посетить Pinterest</p>
+					</div>
+				</a>
+			</li>
+			<!--Windows 8-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-windows"></i>
+					<div class="icon__text">
+						<p class="icon__name">Pinterest</p>
+						<p class="icon__subtitle">Microsoft Windows 8</p>
+					</div>
+				</a>
+			</li>
+			<!--Github-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-github"></i>
+					<div class="icon__text">
+						<p class="icon__name">Github</p>
+						<p class="icon__subtitle">Посетить Github</p>
+					</div>
+				</a>
+			</li>
+			<!--CSS3-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-css3"></i>
+					<div class="icon__text">
+						<p class="icon__name">CSS3</p>
+						<p class="icon__subtitle">Взгляните на CSS3</p>
+					</div>
+				</a>
+			</li>
+			<!--HTML5-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-html-five"></i>
+					<div class="icon__text">
+						<p class="icon__name">HTML5</p>
+						<p class="icon__subtitle">Узрите HTML5</p>
+					</div>
+				</a>
+			</li>
+			<!--RSS-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-rss"></i>
+					<div class="icon__text">
+						<p class="icon__name">RSS</p>
+						<p class="icon__subtitle">Подпишитесь по RSS</p>
+					</div>
+				</a>
+			</li>
+			<!--Настройки-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-settings"></i>
+					<div class="icon__text">
+						<p class="icon__name">Настройки</p>
+						<p class="icon__subtitle">Перейти к настройкам</p>
+					</div>
+				</a>
+			</li>
+			<!--Главная-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-home"></i>
+					<div class="icon__text">
+						<p class="icon__name">Главная</p>
+						<p class="icon__subtitle">На главную страницу</p>
+					</div>
+				</a>
+			</li>
+			<!--Скачать-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-download"></i>
+					<div class="icon__text">
+						<p class="icon__name">Скачать</p>
+						<p class="icon__subtitle">Размер 32.4 Кб</p>
+					</div>
+				</a>
+			</li>
+			<!--Skype-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-skype"></i>
+					<div class="icon__text">
+						<p class="icon__name">Skype</p>
+						<p class="icon__subtitle">Позвонить по Skype</p>
+					</div>
+				</a>
+			</li>
+			<!--Explorer-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-IE"></i>
+					<div class="icon__text">
+						<p class="icon__name">Explorer 10</p>
+						<p class="icon__subtitle">Установить IE 10</p>
+					</div>
+				</a>
+			</li>
+			<!--Google Chrome-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-chrome"></i>
+					<div class="icon__text">
+						<p class="icon__name">Google Chrome</p>
+						<p class="icon__subtitle">Установить Chrome</p>
+					</div>
+				</a>
+			</li>
+			<!--Firefox-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-firefox"></i>
+					<div class="icon__text">
+						<p class="icon__name">Mozilla Firefox</p>
+						<p class="icon__subtitle">Установить Firefox</p>
+					</div>
+				</a>
+			</li>
+			<!--Opera-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-opera"></i>
+					<div class="icon__text">
+						<p class="icon__name">Opera</p>
+						<p class="icon__subtitle">Установить Opera</p>
+					</div>
+				</a>
+			</li>
+			<!--Safari-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-safari"></i>
+					<div class="icon__text">
+						<p class="icon__name">Apple Safari</p>
+						<p class="icon__subtitle">Установить Safari</p>
+					</div>
+				</a>
+			</li>
+			<!--Steam-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-steam"></i>
+					<div class="icon__text">
+						<p class="icon__name">Steam клиент</p>
+						<p class="icon__subtitle">Установить Steam</p>
+					</div>
+				</a>
+			</li>
+			<!--Apple-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-apple"></i>
+					<div class="icon__text">
+						<p class="icon__name">Apple</p>
+						<p class="icon__subtitle">Перейти на сайт</p>
+					</div>
+				</a>
+			</li>
+			<!--Видеозаписи-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-video"></i>
+					<div class="icon__text">
+						<p class="icon__name">Видеозаписи</p>
+						<p class="icon__subtitle">Просмотреть видео</p>
+					</div>
+				</a>
+			</li>
+			<!--Галерея-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-images"></i>
+					<div class="icon__text">
+						<p class="icon__name">Галерея</p>
+						<p class="icon__subtitle">Просмотреть галерею</p>
+					</div>
+				</a>
+			</li>
+			<!--Audio-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-audio"></i>
+					<div class="icon__text">
+						<p class="icon__name">Аудиозаписи</p>
+						<p class="icon__subtitle">Прослушать аудио</p>
+					</div>
+				</a>
+			</li>
+			<!--Profile-->
+			<li class="icon__item">
+				<a class="icon__link" href="">
+					<i class="icon icon-profile"></i>
+					<div class="icon__text">
+						<p class="icon__name">Apple</p>
+						<p class="icon__subtitle">Перейти в профиль</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>

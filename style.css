@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.woff2?6hew4f') format('woff2'),
+    url('fonts/icomoon.svg?6hew4f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-profile:before {
+  content: "\e900";
+}
+.icon-audio:before {
+  content: "\e901";
+}
+.icon-images:before {
+  content: "\e902";
+}
+.icon-video:before {
+  content: "\e903";
+}
+.icon-steam:before {
+  content: "\e904";
+}
+.icon-safari:before {
+  content: "\e905";
+}
+.icon-apple:before {
+  content: "\e906";
+}
+.icon-opera:before {
+  content: "\e907";
+}
+.icon-firefox:before {
+  content: "\e908";
+}
+.icon-chrome:before {
+  content: "\e909";
+}
+.icon-IE:before {
+  content: "\e90a";
+}
+.icon-skype:before {
+  content: "\e90b";
+}
+.icon-download:before {
+  content: "\e90c";
+}
+.icon-pinterest:before {
+  content: "\e90d";
+}
+.icon-home:before {
+  content: "\e90e";
+}
+.icon-settings:before {
+  content: "\e90f";
+}
+.icon-rss:before {
+  content: "\e910";
+}
+.icon-html-five:before {
+  content: "\e911";
+}
+.icon-css3:before {
+  content: "\e912";
+}
+.icon-github:before {
+  content: "\e913";
+}
+.icon-windows:before {
+  content: "\e914";
+}
+.icon-google:before {
+  content: "\e915";
+}
+.icon-twitter:before {
+  content: "\e916";
+}
+.icon-facebook:before {
+  content: "\e917";
+}
